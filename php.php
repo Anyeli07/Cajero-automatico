@@ -20,7 +20,7 @@ echo '<input type="radio" name="monto" value="1000"> Q1000 <br>';
 echo '<br>';
 
 echo 'Otro monto:';
-echo '<input type="number" name="Otromonto" placeholder"Q.0.00" required><br>';
+echo '<input type="number" name="Otromonto" placeholder"Q.0.00"><br>';
 
 echo '<br><br>';
 
@@ -43,7 +43,7 @@ echo '<input type="radio" name="cheque" > Cheque <br>';
 echo '<br>';
 
 echo 'Monto a depositar:';
-echo '<input type="number" name="montoD" placeholder"Q.0.00" required><br>';
+echo '<input type="number" name="montoD" placeholder"Q.0.00"><br>';
 
 echo '<br><br>';
 
@@ -59,12 +59,12 @@ echo "<h1>Realizar transferencia </h1><br>";
 echo '<form method="POST">';
 
 echo 'Cuenta destino:';
-echo '<input type="text" name="cDestino" required><br>';
+echo '<input type="text" name="cDestino"><br>';
 
 echo '<br><br>';
 
 echo 'Monto:';
-echo '<input type="number" name="montoT" placeholder"Q.0.00" required><br>';
+echo '<input type="number" name="montoT" placeholder"Q.0.00"><br>';
 
 echo '<br><br>';
 
@@ -106,12 +106,12 @@ echo '<input type="radio" name="servicio" value="Teléfono">Teléfono<br>';
 echo '<br>';
 
 echo 'Número de referencia:';
-echo '<input type="number" name="nReferencia" required><br>';
+echo '<input type="number" name="nReferencia"><br>';
 
 echo '<br>';
 
 echo 'Monto de pago:';
-echo '<input type="number" name="montoS" placeholder"Q.0.00" required><br>';
+echo '<input type="number" name="montoS" placeholder"Q.0.00"><br>';
 
 echo '<br><br>';
 
@@ -123,5 +123,33 @@ break;
 
 }
 
-
 ?>
+<style>
+    
+    h1{
+        color: #f1b10e;
+        font-size: 90px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align:center;
+    }
+    body{
+        background-color:#05054c;
+        color:white;
+        font-size:40px;
+    }
+    p{
+        color:white;
+        font-size:50px;
+    }
+    button{
+        font-size:40px;
+        background-color: #7272d6;
+        color: #05054c;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-left:400px;
+    }
+    input{
+        background-color:white;
+        font-size:40px;
+    }
+</style>

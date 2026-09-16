@@ -1,0 +1,22 @@
+body{
+text-align: center;
+background-color: #05054c;
+}
+h1{
+    color: #f1b10e;
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: #f1b10e;
+    font-size: 50px;
+}
+button{
+    font-size:40px;
+    background-color: #7272d6;
+    color: #05054c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+
